@@ -16,7 +16,7 @@ const r2 = new S3Client({
 	},
 });
 
-const SOURCE_IMAGE = "http://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/1-him-colored-fs8.png";
+const SOURCE_IMAGE = "https://src.meteopilipinas.gov.ph/repo/mtsat-colored/24hour/1-him-colored-fs8.png";
 
 const BUCKET = "weather-images";
 const KEY = "latest.png";
