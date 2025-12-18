@@ -16,7 +16,7 @@ jobs:
                   node-version: 20
 
             - run: npm install
-            - run: node mirror-image.js
+            - run: node mirror.js
               env:
                   NODE_TLS_REJECT_UNAUTHORIZED: "0"
                   R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
